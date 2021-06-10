@@ -13,7 +13,8 @@ gifs: any[] = [];
   ngOnInit(): void {
     this.dataService.getTrendingGifs()
     .subscribe((response: any) => {
-      console.log(response);
+      console.log('Data', response);
+      // console.log(response)
       this.gifs = response.data;
     });
   }
