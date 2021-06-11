@@ -11,7 +11,7 @@ import { DataService } from '../data.service';
 export class GifsComponent implements OnInit {
 gifs: any[] = [];
   subscription!: Subscription;
-  message = "message from search";
+
   constructor(private dataService: DataService) { }
 
   ngOnInit(): void {
