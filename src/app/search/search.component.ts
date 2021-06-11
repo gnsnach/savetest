@@ -9,18 +9,18 @@ import { DataService } from '../data.service';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService) { } //added because of seach function
 
   ngOnInit(): void {
   }
 
   search(searchTerm: String) {
-if (searchTerm != ' ') {
-  this.dataService.searchGifs(searchTerm);
-// .subscribe((response: any) => {
-//   console.log('search Data', response)
-// })
+  if (searchTerm != '') {
+    this.dataService.searchGifs(searchTerm);
+    // .subscribe((response: any) => {
+    //   console.log('search Data', response);
+}
 }
   }
-}
+
   

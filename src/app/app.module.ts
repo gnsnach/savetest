@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AppHeaderComponent } from './app-header/app-header.component';
 import { SearchComponent } from './search/search.component';
 import { GifsComponent } from './gifs/gifs.component';
+import { SaveComponent } from './save/save.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppHeaderComponent,
     SearchComponent,
-    GifsComponent
+    GifsComponent,
+    SaveComponent
   ],
   imports: [
     BrowserModule,   
