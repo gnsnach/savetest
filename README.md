@@ -1,2 +1,8 @@
-# savetest
+# Front End Assignment using Angular
 angular giphy app
+
+1.  Full workable App is pulled into copy branch.
+2.  Save function is workable by click events together with count of clicks.
+3.  GIF API is retrieved and applied it to search and show the trending GIF's in service class with the help of REST methods. Search function is implimented and works well.
+4.  Learnt the interpolation, property binding and two way biniding to move around with in two pages or repeat the variables and objects, which are to be added with the skills of typescript and router function. But still facing issues with page navigation and stuck to fillup the gaps and will get to know about it soon.
+5.  Thanks for the opportunity and will continue to develop my skills to fulfill the requirements.
